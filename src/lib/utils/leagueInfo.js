@@ -173,7 +173,7 @@ export const managers = [
       "managerID": "965821292446375936",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Cid Hernandez",
       "location": "San Diego, CA", // (optional)
-      "bio": "Signal Processing Engineer / Karaoke Star",
+      "bio": "Age: 19; Occupation: Signal Processing Engineer / Karaoke Star",
       "photo": "/managers/cid.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lv", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
