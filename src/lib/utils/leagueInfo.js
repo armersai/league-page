@@ -49,7 +49,7 @@ export const managers = [
       "managerID": "587811392686424064",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Joe Ventura",
       "location": "Arroyo Grande, CA", // (optional)
-      "bio": "Age: 31; Occupation: Assistant to the Regional Manager of Dunder Mifflin",
+      "bio": "Age: 31 <br /> Occupation: Assistant to the Regional Manager of Dunder Mifflin",
       "photo": "/managers/joe.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2005, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lv", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -70,7 +70,7 @@ export const managers = [
       "managerID": "588193100476747776",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Drew Summerfield",
       "location": "Arroyo Grande, CA", // (optional)
-      "bio": "Age: 30; Occupation: Wood Splitter / Assistant Freshman Football Defensive Coordinator",
+      "bio": "Age: 30 <br /> Occupation: Wood Splitter / Assistant Freshman Football Defensive Coordinator",
       "photo": "/managers/drew.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2005, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -83,7 +83,7 @@ export const managers = [
       "favoritePlayer": 2227, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": null,
+      "philosophy": "Just my two cents, you already tried this with the discord, what makes you think this will garner more traction?",
       "tradingScale": 5, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -91,7 +91,7 @@ export const managers = [
       "managerID": "588422790617538560",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Morgan Wack",
       "location": "Clemson, SC", // (optional)
-      "bio": "Age: 31; Occupation: Worldclass Elementary School Teacher",
+      "bio": "Age: 31 <br /> Occupation: Worldclass Elementary School Teacher",
       "photo": "/managers/morgan.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2005, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lac", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -112,7 +112,7 @@ export const managers = [
       "managerID": "588754117711671296",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Cody Portwood",
       "location": "Arroyo Grande, CA", // (optional)
-      "bio": "Age: 31; Occupation: Realtor / Captain of The Flaming Flying Squirrels",
+      "bio": "Age: 31 <br /> Occupation: Realtor / Captain of The Flaming Flying Squirrels",
       "photo": "/managers/cody.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2008, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "no", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -133,7 +133,7 @@ export const managers = [
       "managerID": "733463029844455424",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Dominic Delagarza III",
       "location": "Arroyo Grande, CA", // (optional)
-      "bio": "Age: 30; Occupation: Selling Fake Shoes / Wardrobe Color Matching Professional",
+      "bio": "Age: 30 <br /> Occupation: Selling Fake Shoes / Wardrobe Color Matching Professional",
       "photo": "/managers/dom.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -154,7 +154,7 @@ export const managers = [
       "managerID": "965780597627011072",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Christian Crichton",
       "location": "Camp Pendleton", // (optional)
-      "bio": "Age: 31; Occupation: Firefighter / Prime Minister of Samoa",
+      "bio": "Age: 31 <br /> Occupation: Firefighter / Prime Minister of Samoa",
       "photo": "/managers/chrisc.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2008, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -175,7 +175,7 @@ export const managers = [
       "managerID": "965821292446375936",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Cid Hernandez",
       "location": "San Diego, CA", // (optional)
-      "bio": "Age: 19; Occupation: Signal Processing Engineer / Karaoke Star",
+      "bio": "Age: 19 <br /> Occupation: Signal Processing Engineer / Karaoke Star",
       "photo": "/managers/cid.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lv", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -196,7 +196,7 @@ export const managers = [
       "managerID": "966109800276807680",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Hunter Norton",
       "location": "San Diego, CA", // (optional)
-      "bio": "Age: 30; Occupation: Attorney General of the U.S. / Private Assassin",
+      "bio": "Age: 30 <br /> Occupation: Attorney General of the U.S. / Private Assassin",
       "photo": "/managers/hunter.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -217,7 +217,7 @@ export const managers = [
       "managerID": "966140145680392192",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Chris Strong",
       "location": "San Diego, CA", // (optional)
-      "bio": "Age: 26; Occupation: Recruiter / Novelist",
+      "bio": "Age: 26 <br /> Occupation: Recruiter / Novelist",
       "photo": "/managers/chriss.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 1998, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "bal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -238,7 +238,7 @@ export const managers = [
       "managerID": "966200372656205824",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Alec Dachs",
       "location": "San Diego, CA", // (optional)
-      "bio": "Age: 26",
+      "bio": "Age: 26 <br /> Occupation: Mechanical Engineer / WSOP Wannabe",
       "photo": "/managers/alec.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -259,7 +259,7 @@ export const managers = [
       "managerID": "966209393182212096",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Aaron Ley",
       "location": "Fresno, CA", // (optional)
-      "bio": "Age: 31; Occupation: Construction Manager / Cat Smasher",
+      "bio": "Age: 31 <br /> Occupation: Construction Manager / Cat Smasher",
       "photo": "/managers/aaron.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "no", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -280,7 +280,7 @@ export const managers = [
       "managerID": "966251318107070464",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Josue Camarena",
       "location": "Riverside, CA", // (optional)
-      "bio": "Age: 26; Occupation: Manufacturing Engineer / Yugioh Enthusiast",
+      "bio": "Age: 26 <br /> Occupation: Manufacturing Engineer / Yugioh Enthusiast",
       "photo": "/managers/josue.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -301,7 +301,7 @@ export const managers = [
       "managerID": "966573099187482624",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Jack Wada",
       "location": "San Diego, CA", // (optional)
-      "bio": "Age: 29; Occupation: Environmental Scientist / Average Beer Die Player",
+      "bio": "Age: 29 <br /> Occupation: Environmental Scientist / Average Beer Die Player",
       "photo": "/managers/jack.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
