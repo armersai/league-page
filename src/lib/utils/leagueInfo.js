@@ -167,8 +167,8 @@ export const managers = [
       "favoritePlayer": 11563, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": null, // (optional)
-      "tradingScale": 10, // 1 - 10 (optional)
+      "philosophy": "Build young. Superstar players within their first 2-3 years. Sit on the franchise. Hand it to the grandkids with 18 titles. Hit on young rookies and young superstars. Desire to trade - 2-3, unless I get a bone-a-fide superyat proven asset.", // (optional)
+      "tradingScale": 3, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
         {
