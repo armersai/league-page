@@ -196,7 +196,7 @@ export const managers = [
       "managerID": "966109800276807680",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Hunter Norton",
       "location": "San Diego, CA", // (optional)
-      "bio": "Attorney General of the U.S. / Private Assassin",
+      "bio": "Age: 30; Occupation: Attorney General of the U.S. / Private Assassin",
       "photo": "/managers/hunter.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
