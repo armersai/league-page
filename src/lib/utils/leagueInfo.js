@@ -28,7 +28,7 @@ export const managers = [
       "managerID": "584494358066139136",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Rik Mersai",
       "location": "San Diego, CA", // (optional)
-      "bio": "Age: 31; Occupation: The Commissioner",
+      "bio": "Age: 31 \ Occupation: The Commissioner",
       "photo": "/managers/rik.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lv", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
