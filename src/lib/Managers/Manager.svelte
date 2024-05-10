@@ -129,7 +129,7 @@
 
     .bio {
         margin: 2em 1.5em 2em;
-        text-indent: 4em each-line;
+        padding-left: 4em;
     }
 
     .philosophy {
