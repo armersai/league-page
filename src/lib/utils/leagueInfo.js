@@ -7,9 +7,11 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-<p>This is my league.</p>
-<p>My league is SUPER cool.</p>
-<p>This is the third paragraph...</p>
+<p>Welcome to the All-In Dynasty League!</p>
+<p>Founded in 2023 in San Diego, CA, the All-in Dynasty League is not just another fantasy football league; 
+it's a community of passionate sports enthusiasts who live and breathe the thrill of competition, camaraderie, and strategic gameplay.</p>
+<p>Please see the Constitution under the "League Info" tab for league rules, settings, and payouts.</p>
+<p>- Commish
 `;
 
 /*   STEP 3   */
