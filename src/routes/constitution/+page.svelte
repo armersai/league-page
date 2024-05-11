@@ -317,6 +317,11 @@
     <p>League payout is structured as follows:</p>
     <ol>
         <li>Playoff Standings</li>
+            <ul>
+                <li>1st place: $350</li>
+                <li>2nd place: $100</li>
+                <li>3rd place: $50</li>
+            <ul>
         <li>Weekly Top Scorer* - $10</li>
         <li>"Bent Over" Payout** - $20</li>
         <li>Record Against League Median* - $50</li>
