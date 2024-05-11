@@ -128,7 +128,12 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Anti-Tanking Clause</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Purpose</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 Roster Management</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>5.3 Consequences of Tanking</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFour)}>5.4 Reporting and Enforcement</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveFive)}>5.5 Appeal Process</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveSix)}>5.6 Amendments</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
     
