@@ -265,7 +265,7 @@
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>Default Seeding - Teams are seeded by regular season standings and stay on their initial side of the bracket through playoffs. Tiebreaker will go to the most points for.</p>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5: Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 5: Anti-Tanking Clause</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
