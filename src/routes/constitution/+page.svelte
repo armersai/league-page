@@ -272,8 +272,26 @@
 
     <h2 class="sectionHeading" bind:this={five}>Section 5: Anti-Tanking Clause</h2>
     
+    <h3 bind:this={fiveOne}>5.1 Purpose</h3>
+    <p>This clause is established to ensure fair play, competitiveness, and integrity within the All-In Dynasty League. It aims to prevent teams from engaging in practices that undermine the spirit of fair competition, including but not limited to tanking, collusion, or roster abandonment.</p>
+
+    <h3 bind:this={fiveTwo}>5.2 Roster Management</h3>
+    <p>All teams are expected to actively manage their rosters throughout the season, including setting lineups with eligible players* and managing injured or bye week players.</p>
+    <p>Deliberate actions such as benching star players or starting inactive players with the intention of losing games, improving draft position, or benefiting other teams are prohibited.</p>
+    <p>*Eligible players include players on a team (not a Free Agent) who are active (not on IR, Out, or Suspended).</p>
+
+    <h3 bind:this={fiveThree}>5.3 Consequences of Tanking</h3>
+    <p>Any team found in violation of this clause may face penalties, including but not limited to loss of draft picks*, expulsion from the league, or forfeiture of league dues.</p>
+    <p>The league commissioner reserves the right to investigate and determine whether a team has violated this clause based on evidence, league standings, team behavior, and team performance from Sleeper’s Weekly Report.</p>
+    <p>*Loss of draft picks - automatically receiving the last position in the following rookie draft (1.14, 2.14, 3.14, 4.14).</p>
+
+    <h3 bind:this={fiveFour}>5.4 Reporting and Enforcement</h3>
+
+
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+
+
+    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6: Replacing Managers</h2>
     
