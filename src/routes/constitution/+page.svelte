@@ -235,11 +235,11 @@
     <h2 class="sectionHeading" bind:this={two}>Section 2: Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order starting with the first six teams eliminated from the playoffs based on the previous year’s regular season standings.</p>
+    <p>Each year, the draft order will follow a reverse linear format, beginning with the first six teams eliminated from the playoffs, determined by the previous year's regular season standings.</p>
 
-    <p>Followed by the four teams who were eliminated in the first round of playoffs based on the reverse order of total points (first round points + regular season points).</p>
+    <p>Subsequently, the draft order will proceed with the four teams eliminated in the initial playoff round, sorted by total points in reverse order (comprising first round points plus regular season points).</p>
 
-    <p>Lastly, followed by the championship round that will establish the last four slots of the draft.</p>
+    <p>Finally, the championship round will determine the draft order for the remaining four slots.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
