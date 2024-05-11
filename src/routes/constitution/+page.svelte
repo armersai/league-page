@@ -149,25 +149,30 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>27 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
         <li>QB</li>
         <li>RB</li>
-        <li>RB</li>
         <li>WR</li>
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>FLEX (RB/WR/TE/QB)</li>
+        <li>DL</li>
+        <li>LB</li>
+        <li>DB</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>14 Bench</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>2 IR Slots (Player must be labeled as IR or Out in the Sleeper App)</p>
+
+    <p>2 Taxi Squad*</p>
+
+    <p>*Taxi Squad slots are set with a duration of 1 year. Players with more than 1 year of experience in the NFL must be activated from the Taxi Squad. Taxi Squad slots need to be established by the beginning of the regular season of the NFL, at which point they will be locked. Taxi Squad players can be taken out at any time to be used, although, if a player is taken out, they cannot be re-established as a member of the Taxi Squad, and will be activated as a member of the roster.</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
