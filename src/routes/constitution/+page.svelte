@@ -242,7 +242,10 @@
     <p>Finally, the championship round will determine the draft order for the remaining four slots.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
+    <p>Rookie drafts will consist of 4 rounds of drafting. The time allotted for each pick will depend on the given year’s flexibility:</p>
+    <ul>
+        <li>Single Day: 5 minutes per pick</li>
+        <li>Multiple Days: Slow draft - 12 hours per pick with a pause from 11pm - 6am PST
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
