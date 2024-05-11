@@ -245,7 +245,8 @@
     <p>Rookie drafts will consist of 4 rounds of drafting. The time allotted for each pick will depend on the given year’s flexibility:</p>
     <ul>
         <li>Single Day: 5 minutes per pick</li>
-        <li>Multiple Days: Slow draft - 12 hours per pick with a pause from 11pm - 6am PST
+        <li>Multiple Days: Slow draft - 12 hours per pick with a pause from 11pm - 6am PST</li>
+    </ul>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
