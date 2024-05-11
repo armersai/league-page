@@ -286,12 +286,16 @@
     <p>*Loss of draft picks - automatically receiving the last position in the following rookie draft (1.14, 2.14, 3.14, 4.14).</p>
 
     <h3 bind:this={fiveFour}>5.4 Reporting and Enforcement</h3>
+    <p>League members are encouraged to report any suspected instances of tanking or unfair play to the commissioner.</p>
+    <p>Following the receipt of a report or identification of potential violations, the commissioner will undertake a comprehensive investigation and implement suitable measures consistent with both league regulations and this clause. A majority vote of 10 out of 14 league members is required for passage.</p>
 
+    <h3 bind:this={fiveFive}>5.5 Appeal Process</h3>
+    <p>Teams accused of tanking have the right to appeal the league's decision.</p>
+    <p>Appeals must be submitted in writing within 48 hours of the league’s decision and will be reviewed by an Appeals Committee appointed at random (four members).</p>
+    <p>Each member of the Appeals Committee will vote on whether to uphold or overturn the League’s decision. A simple majority vote is required to make a decision. If there is a tie, the league commissioner will cast the deciding vote.</p>
 
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-
-
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
+    <h3 bind:this={fiveSix}>5.6 Amendments</h3>
+    <p>The league reserves the right to amend or modify this anti-tanking clause as necessary to address new challenges or unforeseen circumstances. Any amendments will be communicated to league members in a timely manner.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6: Replacing Managers</h2>
     
