@@ -316,12 +316,13 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ol>
-        <li>Playoff Standings</li>
+        <li>Playoff Standings
             <ul>
                 <li>1st place: $350</li>
                 <li>2nd place: $100</li>
                 <li>3rd place: $50</li>
             <ul>
+        </li>
         <li>Weekly Top Scorer* - $10</li>
         <li>"Bent Over" Payout** - $20</li>
         <li>Record Against League Median* - $50</li>
