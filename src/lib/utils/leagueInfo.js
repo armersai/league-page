@@ -7,11 +7,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-<p>Welcome to the All-In Dynasty League!</p>
-<p>Founded in 2023 in San Diego, CA, the All-in Dynasty League is not just another fantasy football league; 
-it's a community of passionate sports enthusiasts who live and breathe the thrill of competition, camaraderie, and strategic gameplay.</p>
-<p>Please see the Constitution under the "League Info" tab for league rules, settings, and payouts.</p>
-<p>- Commish
+<p>Welcome, poker-faced paragons of pigskin prognostication, to the most thrilling high-stakes showdown this side of the Mississippi—the All-In Dynasty League! Prepare to shuffle up and deal with the gridiron gods as we ante up for a season of strategic bluffs, bold bets, and wild card plays that would make Lady Luck herself blush.</p>
+<p>In this digital saloon of fantasy sports, every lineup you craft is a hand you play, every touchdown scored a royal flush in the making. But beware the river card, my friends, for in this game of inches, victory can slip through your fingers faster than a greased pig at a county fair.</p>
+<p>So, don your virtual poker visors, polish your best poker face, and may the flop be ever in your favor as you embark on this high-stakes journey to fantasy football glory. Welcome to the league where touchdowns are the ultimate chip stack, rivalries are as fierce as a final table showdown, and the only thing higher than the stakes is the level of trash talk. Let's shuffle up and kick off!</p>
+<p>- The Commish</p>
 `;
 
 /*   STEP 3   */
