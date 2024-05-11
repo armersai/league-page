@@ -145,7 +145,7 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1: Roster Breakdown</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
@@ -233,7 +233,7 @@
     <p>FAAB budgets will reset each season in January.</p>
     
     
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
+    <h2 class="sectionHeading" bind:this={two}>Section 2: Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
@@ -245,12 +245,12 @@
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
     <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3: Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
     <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
     
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
+    <h2 class="sectionHeading" bind:this={four}>Section 4: Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
     <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
@@ -267,12 +267,12 @@
         <li>Duel to the death</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 5: Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h2 class="sectionHeading" bind:this={six}>Section 6: Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
@@ -283,7 +283,7 @@
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
     <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7: League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
     <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
