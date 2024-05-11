@@ -263,16 +263,7 @@
     <p>At the end of the season, 8 teams will make the playoffs. Two week championship format - each round of playoffs is one week (starting in week 14), while the championship spans two weeks (weeks 16 & 17). Week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
-
-    <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+    <p>Default Seeding - Teams are seeded by regular season standings and stay on their initial side of the bracket through playoffs. Tiebreaker will go to the most points for.</p>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5: Tanking Policy</h2>
     
