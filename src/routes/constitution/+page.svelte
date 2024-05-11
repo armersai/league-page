@@ -255,7 +255,7 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3: Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical 0.5 PPR Scoring). The scoring system will never change without a majority league vote - 10/14 votes (~70%). In this case, everyone must vote and must take place in the off season before the All-In Dynasty League rookie draft.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4: Postseason</h2>
     
