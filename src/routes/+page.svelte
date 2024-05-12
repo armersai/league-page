@@ -107,10 +107,10 @@
     .laurel {
         position: absolute;
         transform: translate(-50%, -50%);
-        width: 135px;
+        width: 165px;
         height: auto;
-        left: 50%;
-        top: 50%;
+        left: 50.7%;
+        top: 47%;
     }
 
     h4 {
@@ -118,6 +118,7 @@
         font-size: 1.8em;
         margin: 10px;
         font-style: italic;
+        font-family: Georgia;
     }
 
     .label {
