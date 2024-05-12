@@ -29,7 +29,7 @@
 </script>
 
 <svelte:head>
-	<title>{!$page.url.pathname[1] ? 'Home' : $page.url.pathname[1].toUpperCase() + $page.url.pathname.slice(2)} | League Page</title>
+	<title>{!$page.url.pathname[1] ? 'Home' : $page.url.pathname[1].toUpperCase() + $page.url.pathname.slice(2)} | All-In Dynasty League</title>
 </svelte:head>
 
 <style>
@@ -40,6 +40,7 @@
 	nav {
 		background-color: var(--fff);
 		position: relative;
+		width: 100%;
 		z-index: 2;
 		border-bottom: 1px solid #00316b;
 		box-shadow: 0 0 8px 0 #00316b;
