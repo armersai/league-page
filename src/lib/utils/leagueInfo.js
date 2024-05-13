@@ -279,7 +279,7 @@ export const managers = [
       "managerID": "966251318107070464",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Josue Camarena",
       "location": "Riverside, CA", // (optional)
-      "bio": "Age: 26 <br /> Started Fantasy: 2018 <br /> Occupation: Manufacturing Engineer / Yugioh Enthusiast <br /> Senior Yearbook: Most likely to have the firt car to ever reach 750k miles. <br /> Favorite Store: Costco <br /> Favorite Brand: Kirkland <br /> Annoying Trait: Raising before the flop. <br /> Unlikely Dream: Bryce Young to be inducted into the Hall of Fame.",
+      "bio": "Age: 26 <br /> Started Fantasy: 2018 <br /> Occupation: Manufacturing Engineer / Yugioh Enthusiast <br /> Senior Yearbook: Most likely to have the first car to ever reach 750k miles. <br /> Favorite Store: Costco <br /> Favorite Brand: Kirkland <br /> Annoying Trait: Raising before the flop. <br /> Unlikely Dream: Bryce Young to be inducted into the Hall of Fame.",
       "photo": "/managers/josue.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
