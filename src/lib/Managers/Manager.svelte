@@ -175,6 +175,17 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        box-shadow: 0 10px 30px #000000
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: space-between; /*adjust as needed */
+    }
+
+    .jerseyImage {
+        width: 200px; /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
     }
 
     .commissionerBadge span {
@@ -311,9 +322,18 @@
 
     <h3> Franchise </h3>
     <div class="managerConstrained">
-        {#if viewManager.teambanner}
-            <img src="viewManager.franchiseBanner" alt="Franchise Banner" class="franchiseBanner"/>
+        {#if viewManager.franchiseBanner}
+            <img src="{viewManager.franchiseBanner}" alt="Franchise Banner" class="franchiseBanner"/>
         {/if}
+    </div>
+
+    <div class="managerConstrained">
+        {#if viewManager.jerseywhite}
+            <img src="{viewManager.jerseywhite}" alt="Jersey White" class="jerseyImage">
+        {/if}
+        {#if viewManager.jerseyblack}
+            <img src="{viewManager.jerseyblack}" alt="Jersey Black" class="jerseyImage">
+        {/if} 
     </div>
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />

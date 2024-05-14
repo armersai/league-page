@@ -43,7 +43,9 @@ export const managers = [
       "philosophy": "Pain heals, chicks dig scars, glory lasts forever.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-      "franchiseBanner": "static/teambanner/bannerdictators.png",
+      "franchiseBanner": "/teambanner/bannerdictators.png",
+      "jerseywhite": "/jerseys/dictatorswhite.png",
+      "jerseyblack": "/jerseys/dictatorsblack.png",
     },
     {
       "managerID": "587811392686424064",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -65,6 +67,7 @@ export const managers = [
       "philosophy": "Try and have a balanced teeam between young and old. Go after the guys you like because it makes it more fun watching them succeed.",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "franchiseBanner": "/teambanner/name.png",
     },
     {
       "managerID": "588193100476747776",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
