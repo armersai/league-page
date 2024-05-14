@@ -171,6 +171,12 @@
         border: 1px solid var(--blueOne);
     }
 
+    .franchiseBanner {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
     .commissionerBadge span {
         font-style: normal;
         color: #fff;
@@ -227,7 +233,7 @@
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}
-            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
+            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of the <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
         </h2>
         
         <div class="basicInfo">
@@ -303,7 +309,15 @@
         <ManagerFantasyInfo {viewManager} {players} {changeManager} />
     {/if}
 
+    <h3> Franchise </h3>
+    <div class="managerConstrained">
+        {#if viewManager.teambanner}
+            <img src="viewManager.franchiseBanner" alt="Franchise Banner" class="franchiseBanner"/>
+        {/if}
+    </div>
+
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
+
 
     {#if loading}
         <!-- promise is pending -->
