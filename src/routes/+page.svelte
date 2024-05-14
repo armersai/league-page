@@ -140,7 +140,11 @@
 <div id="home">
     <div id="main">
         <div class="text">
+<<<<<<< HEAD
             <center><img src="/favicons/android-chrome-512x512.png" alt="league page" width=100%></center>
+=======
+            <center><img src="/favicons/android-chrome-512x512.png" alt="welcome page picture" width=100%></center>
+>>>>>>> manager-edits
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
             {@html homepageText }
             <!-- Most recent Blog Post (if enabled) -->
