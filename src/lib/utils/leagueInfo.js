@@ -25,7 +25,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "managerID": "584494358066139136",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Rik Mersai",
+      "name": "Rik Mers",
       "location": "San Diego, CA", // (optional)
       "bio": "Age: 31 <br /> Started Fantasy: 2012 <br /> Occupation: The Commissioner <br /> Senior Yearbook: Most likely to be the only one laughing at his own joke. <br /> Guilty Pleasure: Going to orgies just because they have a good caterer. <br /> Personal Mantra: She can take my manhood but she can't take my hairline. <br /> Secret Talent: Being pigeon footed and walking in a straight line.",
       "photo": "/managers/rik.png", // square ratio recommended (no larger than 500x500)
