@@ -25,7 +25,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "managerID": "584494358066139136",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Rik Mers",
+      "name": "Rik Mersai",
       "location": "San Diego, CA", // (optional)
       "bio": "Age: 31 <br /> Started Fantasy: 2012 <br /> Occupation: The Commissioner <br /> Senior Yearbook: Most likely to be the only one laughing at his own joke. <br /> Guilty Pleasure: Going to orgies just because they have a good caterer. <br /> Personal Mantra: She can take my manhood but she can't take my hairline. <br /> Secret Talent: Being pigeon footed and walking in a straight line.",
       "photo": "/managers/rik.png", // square ratio recommended (no larger than 500x500)
@@ -43,6 +43,12 @@ export const managers = [
       "philosophy": "Pain heals, chicks dig scars, glory lasts forever.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "franchiseBanner": "/teambanner/bannerdictators.png",
+      "jerseywhite": "/jerseys/dictatorswhite.png",
+      "jerseyblack": "/jerseys/dictatorsblack.png",
+      "stadium": "/stadiums/dictatorsstadium.png",
+      "field": "/fields/dictatorsfield.png",
+      "mascot": "/mascots/supremeleader.png",
     },
     {
       "managerID": "587811392686424064",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -64,6 +70,7 @@ export const managers = [
       "philosophy": "Try and have a balanced teeam between young and old. Go after the guys you like because it makes it more fun watching them succeed.",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "franchiseBanner": "/teambanner/name.png",
     },
     {
       "managerID": "588193100476747776",  // ID of the roster that the manager manages (look at the order of the power rankings graph)

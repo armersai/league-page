@@ -72,7 +72,7 @@
 
     .managerConstrained {
         width: 97%;
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto 4em;
     }
 
@@ -171,6 +171,46 @@
         border: 1px solid var(--blueOne);
     }
 
+    .franchiseBanner {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-shadow: 0 10px 30px #000000;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: space-evenly; /*adjust as needed */
+    }
+
+    .jerseyImage {
+        width: 49%; /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .stadiumImage {
+        width: 50%; /*adjust width as needed */
+        height: auto; /* maintain aspect ratio */
+    }
+
+    .fieldImage {
+        width: 49%;
+        height: auto;
+    }
+
+    .image-blurred-edge {
+    width: 50%;
+    height: auto;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 10px 1px white inset;
+    border-radius:125px;
+    }
+
+    .mascotImage {
+        width: 80%;
+        height: auto;
+    }
+
     .commissionerBadge span {
         font-style: normal;
         color: #fff;
@@ -227,7 +267,7 @@
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}
-            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
+            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of the <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
         </h2>
         
         <div class="basicInfo">
@@ -303,7 +343,39 @@
         <ManagerFantasyInfo {viewManager} {players} {changeManager} />
     {/if}
 
+    <h3> Franchise </h3>
+    <div class="managerConstrained">
+        {#if viewManager.franchiseBanner}
+            <img src="{viewManager.franchiseBanner}" alt="Franchise Banner" class="franchiseBanner"/>
+        {/if}
+    </div>
+
+    <div class="managerConstrained">
+        {#if viewManager.jerseywhite}
+            <img src="{viewManager.jerseywhite}" alt="Jersey White" class="jerseyImage">
+        {/if}
+        {#if viewManager.jerseyblack}
+            <img src="{viewManager.jerseyblack}" alt="Jersey Black" class="jerseyImage">
+        {/if} 
+    </div>
+
+    <div class="managerConstrained">
+        {#if viewManager.stadium}
+            <img src="{viewManager.stadium}" alt="Stadium" class="stadiumImage">
+        {/if}
+        {#if viewManager.field}
+            <img src="{viewManager.field}" alt="Field" class="fieldImage">
+        {/if}
+    </div>
+
+    <div class="managerConstrained">
+        {#if viewManager.stadium}
+            <img src="{viewManager.mascot}" alt="Mascot" class="mascotImage">
+        {/if}
+    </div>
+
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
+
 
     {#if loading}
         <!-- promise is pending -->
