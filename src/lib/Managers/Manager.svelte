@@ -216,7 +216,8 @@
 
     .teamName {
         display: block;
-        width: 50%;
+        width: 70%;
+        max-width: 400px;
         height: auto;
         margin: 2.5em auto 1em;
     }
@@ -280,11 +281,9 @@
             <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of the:</div>
         </h2>
 
-    <div class="managerConstrained">
         {#if viewManager.teamName}
             <img src="{viewManager.teamName}" alt="Team Name" class="teamName"/>
         {/if}
-    </div>
         
         <div class="basicInfo">
             <span class="infoChild">{viewManager.location || 'Undisclosed Location'}</span>
