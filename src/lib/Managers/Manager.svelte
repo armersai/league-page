@@ -218,7 +218,7 @@
         display: block;
         width: 50%;
         height: auto;
-        margin: 5em auto 1em;
+        margin: 2.5em auto 1em;
     }
 
     .commissionerBadge span {
