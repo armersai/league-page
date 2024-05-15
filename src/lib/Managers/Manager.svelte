@@ -129,7 +129,6 @@
 
     .bio {
         margin: 2em 1.5em 2em;
-        padding-left: 4em;
     }
 
     .philosophy {
@@ -202,8 +201,24 @@
     }
 
     .mascotImage {
-        width: 80%;
+        display: block;
+        width: 50%;
         height: auto;
+        margin: 5em auto 1em;
+    }
+
+    .bobbleheadImage {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 5em auto 1em;
+    }
+
+    .teamName {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 0em auto 1em;
     }
 
     .commissionerBadge span {
@@ -262,8 +277,14 @@
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}
-            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of the <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
+            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of the:</div>
         </h2>
+
+    <div class="managerConstrained">
+        {#if viewManager.teamName}
+            <img src="{viewManager.teamName}" alt="Team Name" class="teamName"/>
+        {/if}
+    </div>
         
         <div class="basicInfo">
             <span class="infoChild">{viewManager.location || 'Undisclosed Location'}</span>
@@ -368,6 +389,11 @@
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
+    <div class="managerConstrained">
+        {#if viewManager.bobblehead}
+            <img src="{viewManager.bobblehead}" alt="Bobblehead" class="bobbleheadImage">
+        {/if}
+    </div>
 
     {#if loading}
         <!-- promise is pending -->

@@ -43,11 +43,13 @@ export const managers = [
       "philosophy": "Pain heals, chicks dig scars, glory lasts forever.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-      "franchiseBanner": "/teambanner/bannerdictators.png",
-      "jerseywhite": "/jerseys/dictatorswhite.png",
-      "jerseyblack": "/jerseys/dictatorsblack.png",
-      "stadium": "/stadiums/dictatorsstadium.png",
-      "mascot": "/mascots/supremeleader.png",
+      "teamName": "/teamnames/diegodictators.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannerdictators.png", // Franchise Banner
+      "jerseywhite": "/jerseys/dictatorswhite.png", // White Team Jerseys
+      "jerseyblack": "/jerseys/dictatorsblack.png", // Black Team Jerseys
+      "stadium": "/stadiums/dictatorsstadium.png", // Team Stadium
+      "mascot": "/mascots/supremeleader.png", // Team Mascot
+      "bobblehead": "/bobbleheads/dictatorsbobblehead.png", //Team Bobblehead
     },
     {
       "managerID": "587811392686424064",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -69,7 +71,13 @@ export const managers = [
       "philosophy": "Try and have a balanced teeam between young and old. Go after the guys you like because it makes it more fun watching them succeed.",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-      "franchiseBanner": "/teambanner/name.png",
+      "teamName": "/teamnames/name.png",
+      "franchiseBanner": "/teambanner/bannername.png", // Franchise Banner
+      "jerseywhite": "/jerseys/namewhite.png", // White Team Jerseys
+      "jerseyblack": "/jerseys/nameblack.png", // Black Team Jerseys
+      "stadium": "/stadiums/namestadium.png", // Team Stadium
+      "mascot": "/mascots/name.png", // Team Mascot
+      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
     },
     {
       "managerID": "588193100476747776",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -154,6 +162,13 @@ export const managers = [
       "philosophy": "Philosophy is obviously you're trying to win now but the future has to be on your mind. The long term has to be your goal.", // (optional)
       "tradingScale": 7, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/golddiggers.png",
+      "franchiseBanner": "/teambanner/bannergolddiggers.png", // Franchise Banner
+      "jerseywhite": "/jerseys/golddiggerswhite.png", // White Team Jerseys
+      "jerseyblack": "/jerseys/golddiggersblack.png", // Black Team Jerseys
+      "stadium": "/stadiums/golddiggersstadium.png", // Team Stadium
+      "mascot": "/mascots/Nugg.png", // Team Mascot
+      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
     },
         {
       "managerID": "965780597627011072",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -175,6 +190,13 @@ export const managers = [
       "philosophy": "Build young. Superstar players within their first 2-3 years. Sit on the franchise. Hand it to the grandkids with 18 titles. Hit on young rookies and young superstars. Desire to trade - 2-3, unless I get a bone-a-fide superyat proven asset.", // (optional)
       "tradingScale": 3, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/cardiffcruisers.png",
+      "franchiseBanner": "/teambanner/bannercruisers.png", // Franchise Banner
+      "jerseywhite": "/jerseys/cruiserswhite.png", // White Team Jerseys
+      "jerseyblack": "/jerseys/cruisersblack.png", // Black Team Jerseys
+      "stadium": "/stadiums/cruisersstadium.png", // Team Stadium
+      "mascot": "/mascots/kook.png", // Team Mascot
+      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
     },
         {
       "managerID": "965821292446375936",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -238,6 +260,13 @@ export const managers = [
       "philosophy": "Eleven players, one heart beat.", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/sincitysavages.png",
+      "franchiseBanner": "/teambanner/bannersavages.png", // Franchise Banner
+      "jerseywhite": "/jerseys/savageswhite.png", // White Team Jerseys
+      "jerseyblack": "/jerseys/savagesblack.png", // Black Team Jerseys
+      "stadium": "/stadiums/savagesstadium.png", // Team Stadium
+      "mascot": "/mascots/kilgore.png", // Team Mascot
+      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
     },
         {
       "managerID": "966200372656205824",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
