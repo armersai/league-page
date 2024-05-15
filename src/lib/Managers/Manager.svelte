@@ -359,40 +359,30 @@
     {/if}
 
     <h3> Franchise </h3>
-    <div class="managerConstrained">
         {#if viewManager.franchiseBanner}
             <img src="{viewManager.franchiseBanner}" alt="Franchise Banner" class="franchiseBanner"/>
         {/if}
-    </div>
 
-    <div class="managerConstrained">
         {#if viewManager.jerseywhite}
             <img src="{viewManager.jerseywhite}" alt="Jersey White" class="jerseyImage">
         {/if}
         {#if viewManager.jerseyblack}
             <img src="{viewManager.jerseyblack}" alt="Jersey Black" class="jerseyImage">
         {/if} 
-    </div>
 
-    <div class="managerConstrained">
         {#if viewManager.stadium}
             <img src="{viewManager.stadium}" alt="Stadium" class="stadiumImage">
         {/if}
-    </div>
 
-    <div class="managerConstrained">
-        {#if viewManager.stadium}
+        {#if viewManager.mascot}
             <img src="{viewManager.mascot}" alt="Mascot" class="mascotImage">
         {/if}
-    </div>
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
-    <div class="managerConstrained">
         {#if viewManager.bobblehead}
             <img src="{viewManager.bobblehead}" alt="Bobblehead" class="bobbleheadImage">
         {/if}
-    </div>
 
     {#if loading}
         <!-- promise is pending -->
