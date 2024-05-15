@@ -189,13 +189,8 @@
     }
 
     .stadiumImage {
-        width: 50%; /*adjust width as needed */
+        width: 100%; /*adjust width as needed */
         height: auto; /* maintain aspect ratio */
-    }
-
-    .fieldImage {
-        width: 49%;
-        height: auto;
     }
 
     .image-blurred-edge {
@@ -362,9 +357,6 @@
     <div class="managerConstrained">
         {#if viewManager.stadium}
             <img src="{viewManager.stadium}" alt="Stadium" class="stadiumImage">
-        {/if}
-        {#if viewManager.field}
-            <img src="{viewManager.field}" alt="Field" class="fieldImage">
         {/if}
     </div>
 

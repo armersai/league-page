@@ -47,7 +47,6 @@ export const managers = [
       "jerseywhite": "/jerseys/dictatorswhite.png",
       "jerseyblack": "/jerseys/dictatorsblack.png",
       "stadium": "/stadiums/dictatorsstadium.png",
-      "field": "/fields/dictatorsfield.png",
       "mascot": "/mascots/supremeleader.png",
     },
     {
