@@ -45,11 +45,19 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       "teamName": "/teamnames/diegodictators.png", // Team Name 
       "franchiseBanner": "/teambanner/bannerdictators.png", // Franchise Banner
-      "jerseywhite": "/jerseys/dictatorswhite.png", // White Team Jerseys
-      "jerseyblack": "/jerseys/dictatorsblack.png", // Black Team Jerseys
+      "jerseyblack1": "/jerseys/dictatorsblack1.png",
+      "jerseyblack2": "/jerseys/dictatorsblack2.png",
+      "jerseyblack3": "/jerseys/dictatorsblack3.png",
+      "jerseywhite1": "/jerseys/dictatorswhite1.png",
+      "jerseywhite2": "/jerseys/dictatorswhite2.png",
+      "jerseywhite3": "/jerseys/dictatorswhite3.png",
+      "jerseyalt1": "/jerseys/dictatorsalt1.png",
+      "jerseyalt2": "/jerseys/dictatorsalt2.png",
+      "jerseyalt3": "/jerseys/dictatorsalt3.png",
       "stadium": "/stadiums/dictatorsstadium.png", // Team Stadium
       "mascot": "/mascots/supremeleader.png", // Team Mascot
       "bobblehead": "/bobbleheads/dictatorsbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#6c7034"
     },
     {
       "managerID": "587811392686424064",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -120,6 +128,21 @@ export const managers = [
       "philosophy": "My fantasy goal/philosophy is to maximize my enjoyment season-on-season. To me, this means building a team that can compete every year without ever having to tank/go all-in.", // (optional)
       "tradingScale": 9, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/gautenghyenas.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannerhyenas.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/hyenasblack1.png",
+      "jerseyblack2": "/jerseys/hyenasblack2.png",
+      "jerseyblack3": "/jerseys/hyenasblack3.png",
+      "jerseywhite1": "/jerseys/hyenaswhite1.png",
+      "jerseywhite2": "/jerseys/hyenaswhite2.png",
+      "jerseywhite3": "/jerseys/hyenaswhite3.png",
+      "jerseyalt1": "/jerseys/hyenasalt1.png",
+      "jerseyalt2": "/jerseys/hyenasalt2.png",
+      "jerseyalt3": "/jerseys/hyenasalt3.png",
+      "stadium": "/stadiums/hyenasstadium.png", // Team Stadium
+      "mascot": "/mascots/melvin.png", // Team Mascot
+      "bobblehead": "/bobbleheads/hyenasbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#362B21"
     },
         {
       "managerID": "588754117711671296",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -164,11 +187,19 @@ export const managers = [
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       "teamName": "/teamnames/golddiggers.png",
       "franchiseBanner": "/teambanner/bannergolddiggers.png", // Franchise Banner
-      "jerseywhite": "/jerseys/golddiggerswhite.png", // White Team Jerseys
-      "jerseyblack": "/jerseys/golddiggersblack.png", // Black Team Jerseys
+      "jerseyblack1": "/jerseys/golddiggersblack1.png",
+      "jerseyblack2": "/jerseys/golddiggersblack2.png",
+      "jerseyblack3": "/jerseys/golddiggersblack3.png",
+      "jerseywhite1": "/jerseys/golddiggerswhite1.png",
+      "jerseywhite2": "/jerseys/golddiggerswhite2.png",
+      "jerseywhite3": "/jerseys/golddiggerswhite3.png",
+      "jerseyalt1": "/jerseys/golddiggersalt1.png",
+      "jerseyalt2": "/jerseys/golddiggersalt2.png",
+      "jerseyalt3": "/jerseys/golddiggersalt3.png",
       "stadium": "/stadiums/golddiggersstadium.png", // Team Stadium
       "mascot": "/mascots/Nugg.png", // Team Mascot
       "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
+      "backgroundColor": "#aa0000"
     },
         {
       "managerID": "965780597627011072",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -192,11 +223,19 @@ export const managers = [
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       "teamName": "/teamnames/cardiffcruisers.png",
       "franchiseBanner": "/teambanner/bannercruisers.png", // Franchise Banner
-      "jerseywhite": "/jerseys/cruiserswhite.png", // White Team Jerseys
-      "jerseyblack": "/jerseys/cruisersblack.png", // Black Team Jerseys
+      "jerseyblack1": "/jerseys/cruisersblack1.png",
+      "jerseyblack2": "/jerseys/cruisersblack2.png",
+      "jerseyblack3": "/jerseys/cruisersblack3.png",
+      "jerseywhite1": "/jerseys/cruiserswhite1.png",
+      "jerseywhite2": "/jerseys/cruiserswhite2.png",
+      "jerseywhite3": "/jerseys/cruiserswhite3.png",
+      "jerseyalt1": "/jerseys/cruisersalt1.png",
+      "jerseyalt2": "/jerseys/cruisersalt2.png",
+      "jerseyalt3": "/jerseys/cruisersalt3.png",
       "stadium": "/stadiums/cruisersstadium.png", // Team Stadium
       "mascot": "/mascots/kook.png", // Team Mascot
       "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
+      "backgroundColor": "#FCD116"
     },
         {
       "managerID": "965821292446375936",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -262,11 +301,19 @@ export const managers = [
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       "teamName": "/teamnames/sincitysavages.png",
       "franchiseBanner": "/teambanner/bannersavages.png", // Franchise Banner
-      "jerseywhite": "/jerseys/savageswhite.png", // White Team Jerseys
-      "jerseyblack": "/jerseys/savagesblack.png", // Black Team Jerseys
+      "jerseyblack1": "/jerseys/savagesblack1.png",
+      "jerseyblack2": "/jerseys/savagesblack2.png",
+      "jerseyblack3": "/jerseys/savagesblack3.png",
+      "jerseywhite1": "/jerseys/savageswhite1.png",
+      "jerseywhite2": "/jerseys/savageswhite2.png",
+      "jerseywhite3": "/jerseys/savageswhite3.png",
+      "jerseyalt1": "/jerseys/savagesalt1.png",
+      "jerseyalt2": "/jerseys/savagesalt2.png",
+      "jerseyalt3": "/jerseys/savagesalt3.png",
       "stadium": "/stadiums/savagesstadium.png", // Team Stadium
       "mascot": "/mascots/kilgore.png", // Team Mascot
       "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
+      "backgroundColor": "#000000"
     },
         {
       "managerID": "966200372656205824",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -351,6 +398,21 @@ export const managers = [
       "philosophy": "I'm a nice guy who enjoys a good trade rape from time to time.", // (optional)
       "tradingScale": 4, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/bayparkhoopties.png", // Team Logo w/ name
+      "franchiseBanner": "/teambanner/bannerhoopties.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/hooptiesblack1.png",
+      "jerseyblack2": "/jerseys/hooptiesblack2.png",
+      "jerseyblack3": "/jerseys/hooptiesblack3.png",
+      "jerseywhite1": "/jerseys/hooptieswhite1.png",
+      "jerseywhite2": "/jerseys/hooptieswhite2.png",
+      "jerseywhite3": "/jerseys/hooptieswhite3.png",
+      "jerseyalt1": "/jerseys/hooptiesalt1.png",
+      "jerseyalt2": "/jerseys/hooptiesalt2.png",
+      "jerseyalt3": "/jerseys/hooptiesalt3.png",
+      "stadium": "/stadiums/hooptiesstadium.png", // Team Stadium
+      "mascot": "/mascots/oddy.png", // Team Mascot
+      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
+      "backgroundColor": "#4F2683"
     },
 
   ]
