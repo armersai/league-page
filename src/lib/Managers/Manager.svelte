@@ -204,14 +204,12 @@
         display: block;
         width: 50%;
         height: auto;
-        margin: 5em auto 1em;
     }
 
     .bobbleheadImage {
         display: block;
         width: 50%;
         height: auto;
-        margin: 5em auto 1em;
     }
 
     .teamName {
@@ -375,13 +373,13 @@
         {/if}
 
         {#if viewManager.mascot}
-            <img src="{viewManager.mascot}" alt="Mascot" class="mascotImage">
+            <center><img src="{viewManager.mascot}" alt="Mascot" class="mascotImage"></center>
         {/if}
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
         {#if viewManager.bobblehead}
-            <img src="{viewManager.bobblehead}" alt="Bobblehead" class="bobbleheadImage">
+            <center><img src="{viewManager.bobblehead}" alt="Bobblehead" class="bobbleheadImage"></center>
         {/if}
 
     {#if loading}
