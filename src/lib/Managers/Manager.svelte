@@ -217,6 +217,8 @@
         max-width: 200px; /* Set a maximum width */
         position: relative;
         margin: 1em auto 0em;
+        min-height: 450px;
+        padding: 10px;
     }
 
     .jerseyContainer img {
@@ -234,6 +236,7 @@
     .stadiumImage {
         width: 100%; /*adjust width as needed */
         height: auto; /* maintain aspect ratio */
+        box-shadow: 0 0 30px 5px #000000;
     }
 
     .image-blurred-edge {
