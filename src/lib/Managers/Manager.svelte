@@ -110,6 +110,7 @@
         font-size: 2.8em;
         margin: 1em 0 0em;
         line-height: 1em;
+        font-family: 'RubensShadow';
     }
 
     h3 {
@@ -117,6 +118,7 @@
         font-size: 1.5em;
         margin: 1.5em 0 0.5em;
         font-weight: 200;
+        font-family: 'RubensShadow';
     }
 
     .basicInfo {
@@ -320,6 +322,14 @@
         50% { opacity: 0; }
         75% { opacity: 0; }
         100% { opacity: 0; }
+    }
+
+    /* font query */
+
+    @font-face {
+        font-family: 'RubensShadow';
+        src: url(static/fonts/RubensShadow.otf)
+
     }
 </style>
 
