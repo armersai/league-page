@@ -79,7 +79,7 @@
         images.forEach(image => image.classList.remove('active'));
         images[index].classList.add('active');
         index = (index + 1) % images.length;
-    }, 4000); // Change the interval (in milliseconds) to adjust the rotation speed
+    }, 2500); // Change the interval (in milliseconds) to adjust the rotation speed
 });
 </script>
 
