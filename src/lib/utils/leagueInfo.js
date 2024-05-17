@@ -377,6 +377,21 @@ export const managers = [
       "philosophy": "My dynasty philosophy is the same as my approach to poker. Be patient, and if you believe in the potential, go all-in.", // (optional)
       "tradingScale": 7, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/mambasdeguad.png", // Team Logo w/ name
+      "franchiseBanner": "/teambanner/bannermambas.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/mambasblack1.png",
+      "jerseyblack2": "/jerseys/mambasblack2.png",
+      "jerseyblack3": "/jerseys/mambasblack3.png",
+      "jerseywhite1": "/jerseys/mambaswhite1.png",
+      "jerseywhite2": "/jerseys/mambaswhite2.png",
+      "jerseywhite3": "/jerseys/mambaswhite3.png",
+      "jerseyalt1": "/jerseys/mambasalt1.png",
+      "jerseyalt2": "/jerseys/mambasalt2.png",
+      "jerseyalt3": "/jerseys/mambasalt3.png",
+      "stadium": "/stadiums/mambasstadium.png", // Team Stadium
+      "mascot": "/mascots/Koko.png", // Team Mascot
+      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
+      "backgroundColor": "#4a4293"
     },
         {
       "managerID": "966573099187482624",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
