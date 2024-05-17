@@ -6,6 +6,7 @@
     export let manager, leagueTeamManagers, key;
 
     let retired = false;
+    let viewManager = manager;
 
     // manager.roster is deprecated, pages should be using managerID now
     let rosterID = manager.roster;
@@ -43,8 +44,8 @@
     }
 
     .photo {
-        height: 40px;
-        width: 40px;
+        height: 70px;
+        width: 70px;
         border-radius: 100%;
         vertical-align: middle;
         margin-left: 1em;
@@ -127,6 +128,11 @@
         background-color: var(--blueTwo);
         border: 1px solid var(--blueOne);
         color: #fff;
+    }
+
+    .teamBanner {
+        max-width: 100%;
+        max-height: 100%;
     }
 
 	@media (max-width: 665px) {
@@ -238,22 +244,11 @@
             </div>
         {/if}
     </div>
-    <div class="name">{manager.name}</div>
-    <div class="team">{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</div>
+    <div class="team">
+        <img class="teamBanner" src="{viewManager.franchiseBanner}" alt="TBD" />
+    </div>
     <div class="spacer" />
     <div class="info">
-        <!-- Favorite team (optional) -->
-        <div class="infoSlot infoTeam">
-            {#if manager.favoriteTeam}
-                <div class="infoIcon">
-                    <img class="infoImg" src="https://sleepercdn.com/images/team_logos/nfl/{manager.favoriteTeam}.png" alt="favorite team"/>
-                </div>
-            {:else}
-                <div class="infoIcon question">
-                    <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                </div>
-            {/if}
-        </div>
         <!-- Preferred contact -->
         <div class="infoSlot">
             {#if manager.preferredContact}
