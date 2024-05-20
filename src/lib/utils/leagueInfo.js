@@ -107,6 +107,21 @@ export const managers = [
       "philosophy": "Just my two cents, you already tried this with the Discord, what makes you think this will garner more traction?",
       "tradingScale": 5, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/gothamgladiators.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannergladiators.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/gladiatorsblack1.png",
+      "jerseyblack2": "/jerseys/gladiatorsblack2.png",
+      "jerseyblack3": "/jerseys/gladiatorsblack3.png",
+      "jerseywhite1": "/jerseys/gladiatorswhite1.png",
+      "jerseywhite2": "/jerseys/gladiatorswhite2.png",
+      "jerseywhite3": "/jerseys/gladiatorswhite3.png",
+      "jerseyalt1": "/jerseys/gladiatorsalt1.png",
+      "jerseyalt2": "/jerseys/gladiatorsalt2.png",
+      "jerseyalt3": "/jerseys/gladiatorsalt3.png",
+      "stadium": "/stadiums/gladiatorsstadium.png", // Team Stadium
+      "mascot": "/mascots/spartacus.png", // Team Mascot
+      "bobblehead": "/bobbleheads/gladiatorsbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#bcbec0"
     },
               {
       "managerID": "588422790617538560",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
