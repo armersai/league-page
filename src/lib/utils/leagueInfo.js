@@ -79,13 +79,21 @@ export const managers = [
       "philosophy": "Try and have a balanced teeam between young and old. Go after the guys you like because it makes it more fun watching them succeed.",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-      "teamName": "/teamnames/name.png",
-      "franchiseBanner": "/teambanner/bannername.png", // Franchise Banner
-      "jerseywhite": "/jerseys/namewhite.png", // White Team Jerseys
-      "jerseyblack": "/jerseys/nameblack.png", // Black Team Jerseys
-      "stadium": "/stadiums/namestadium.png", // Team Stadium
-      "mascot": "/mascots/name.png", // Team Mascot
-      "bobblehead": "/bobbleheads/namebobblehead.png", //Team Bobblehead
+      "teamName": "/teamnames/neptunecityninetails.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannerninetails.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/ninetailsblack1.png",
+      "jerseyblack2": "/jerseys/ninetailsblack2.png",
+      "jerseyblack3": "/jerseys/ninetailsblack3.png",
+      "jerseywhite1": "/jerseys/ninetailswhite1.png",
+      "jerseywhite2": "/jerseys/ninetailswhite2.png",
+      "jerseywhite3": "/jerseys/ninetailswhite3.png",
+      "jerseyalt1": "/jerseys/ninetailsalt1.png",
+      "jerseyalt2": "/jerseys/ninetailsalt2.png",
+      "jerseyalt3": "/jerseys/ninetailsalt3.png",
+      "stadium": "/stadiums/ninetailsstadium.png", // Team Stadium
+      "mascot": "/mascots/nine.png", // Team Mascot
+      "bobblehead": "/bobbleheads/ninetailsbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#3E3E3E"
     },
     {
       "managerID": "588193100476747776",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
