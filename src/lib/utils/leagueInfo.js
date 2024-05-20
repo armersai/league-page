@@ -358,6 +358,21 @@ export const managers = [
       "philosophy": "My desire to trade is 1000.", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/vegassungods.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannersungods.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/sungodsblack1.png",
+      "jerseyblack2": "/jerseys/sungodsblack2.png",
+      "jerseyblack3": "/jerseys/sungodsblack3.png",
+      "jerseywhite1": "/jerseys/sungodswhite1.png",
+      "jerseywhite2": "/jerseys/sungodswhite2.png",
+      "jerseywhite3": "/jerseys/sungodswhite3.png",
+      "jerseyalt1": "/jerseys/sungodsalt1.png",
+      "jerseyalt2": "/jerseys/sungodsalt2.png",
+      "jerseyalt3": "/jerseys/sungodsalt3.png",
+      "stadium": "/stadiums/sungodsstadium.png", // Team Stadium
+      "mascot": "/mascots/helios.png", // Team Mascot
+      "bobblehead": "/bobbleheads/sungodsbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#056cbc"
     },
         {
       "managerID": "966209393182212096",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
