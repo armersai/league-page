@@ -408,6 +408,7 @@
         </div>
 
         <p class="bio">{@html viewManager.bio}</p>
+        
         <hr />
 
         {#if viewManager.philosophy}
