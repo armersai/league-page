@@ -29,6 +29,9 @@
         padding: 0 30px;
         max-width: 620px;
         margin: 0 auto;
+        font-family: "Rye", serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .leagueData {
@@ -136,7 +139,9 @@
 		font-style: italic;
 	}
 </style>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
 <div id="home">
     <div id="main">
         <div class="text">
