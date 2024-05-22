@@ -140,6 +140,7 @@
         width: 80%;
         max-width: 800px;
         margin: 0 auto 2em;
+        opacity: 75%;
     }
     @media (max-width: 650px) {
         h3 {
