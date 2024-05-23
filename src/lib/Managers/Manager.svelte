@@ -406,7 +406,8 @@
                 {/if}
             </Group>
         </div>
-
+        <hr>
+        <h3>Bio</h3>
         <p class="bio">{@html viewManager.bio}</p>
         
         <hr />
