@@ -21,8 +21,16 @@
     h6 {
         text-align: center;
     }
-</style>
 
+	#rookie2024 {
+		width: 200px;
+		height: auto;
+		margin-top: 20px;
+	}
+</style>
+<div>
+	<center><img id="rookie2024" src="/draftlogo1.png" alt="2024 Rookie Draft Logo"/></center>
+</div>
 
 {#await waitForAll(upcomingDraftData, leagueTeamManagersData, playersData) }
 	<div class="loading">
@@ -31,7 +39,6 @@
 		<LinearProgress indeterminate />
 	</div>
 {:then [upcomingDraft, leagueTeamManagers, {players}] }
-    <h4>Upcoming {upcomingDraft.year} Draft</h4>
     <Draft draftData={upcomingDraft} {leagueTeamManagers} year={upcomingDraft.year} {players} />
 {:catch error}
 	<!-- promise was rejected -->

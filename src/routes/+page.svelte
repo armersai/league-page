@@ -29,9 +29,6 @@
         padding: 0 30px;
         max-width: 620px;
         margin: 0 auto;
-        font-family: "Rye", serif;
-        font-weight: 400;
-        font-style: normal;
     }
 
     .leagueData {
@@ -138,10 +135,12 @@
 		color: #bbb;
 		font-style: italic;
 	}
+
+    #pokertable {
+        width: 100%;
+        margin-top: 30px;
+    }
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
 <div id="home">
     <div id="main">
         <div class="text">
@@ -152,6 +151,9 @@
             {#if enableBlog}
                 <HomePost />
             {/if}
+        </div>
+        <div class="text">
+            <center><img id="pokertable" src="/pokertable1.png" alt="poker table"/></center>
         </div>
         <PowerRankings />
     </div>

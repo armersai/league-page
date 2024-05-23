@@ -199,9 +199,17 @@
 		text-align: center;
 		color: #999;
 	}
+
+	#transactionsBanner {
+		width: 100%;
+		margin-top: 20px;
+	}
 </style>
 
 <div class="transactionsParent">
+	<div>
+		<img id="transactionsBanner" src="/transactionsbanner1.png" alt="Transactions Banner"/>
+	</div>
 	<div class="buttons {show == "trade" ? "" : "invis-buttons"}">
 		<Button class="{show == "trade" ? "disabled" : ""}" color="primary" on:click={() => setShow("trade")} variant="{show == "trade" ? "raised" : "outlined"}" touch>
 			<Label>Trades</Label>
