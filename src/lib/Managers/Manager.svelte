@@ -469,7 +469,8 @@
         <Roster division="1" expanded={false} {rosterPositions} {roster} {leagueTeamManagers} {players} {startersAndReserve} />
     {/if}
 
-    <h3>Team Transactions</h3>
+    <hr>
+
     <div class="managerConstrained">
         {#if loading}
             <!-- promise is pending -->
