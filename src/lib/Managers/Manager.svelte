@@ -237,6 +237,7 @@
         width: 100%; /*adjust width as needed */
         height: auto; /* maintain aspect ratio */
         box-shadow: 0 0 30px 5px #000000;
+        border-radius: 10%;
     }
 
     .image-blurred-edge {

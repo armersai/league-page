@@ -280,6 +280,21 @@ export const managers = [
       "philosophy": "I have no idea what I'm doing.", // (optional)
       "tradingScale": 7, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/okinawatyphoons.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannertyphoons.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/typhoonsblack1.png",
+      "jerseyblack2": "/jerseys/typhoonsblack2.png",
+      "jerseyblack3": "/jerseys/typhoonsblack3.png",
+      "jerseywhite1": "/jerseys/typhoonswhite1.png",
+      "jerseywhite2": "/jerseys/typhoonswhite2.png",
+      "jerseywhite3": "/jerseys/typhoonswhite3.png",
+      "jerseyalt1": "/jerseys/typhoonsalt1.png",
+      "jerseyalt2": "/jerseys/typhoonsalt2.png",
+      "jerseyalt3": "/jerseys/typhoonsalt3.png",
+      "stadium": "/stadiums/typhoonsstadium.png", // Team Stadium
+      "mascot": "/mascots/ty.png", // Team Mascot
+      "bobblehead": "/bobbleheads/typhoonsbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#07174a"
     },
         {
       "managerID": "966109800276807680",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
