@@ -39,7 +39,7 @@
 </style>
 
 <div class="managerContainer">
-    <h2>{leagueName} Managers</h2>
+    <center><img class="managerConstrained" src="/managers-banner.png" alt="managers banner"/></center>
     <div class="managerConstrained">
         {#each managers as manager, key}
             <ManagerRow {manager} {leagueTeamManagers} {key} />

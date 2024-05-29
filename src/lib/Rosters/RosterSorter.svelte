@@ -118,6 +118,11 @@
 		margin: 5em auto 2em;
     	text-align: center;
 	}
+
+	.rosterbanner {
+		width: 100%;
+		margin-top: 50px;
+	}
 </style>
 
 <div class="expandButton">

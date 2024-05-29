@@ -93,10 +93,14 @@
     p {
         color: #777;
     }
+
+    img {
+        width: 100%;
+    }
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">ALL-IN DYNASTY LEAGUE CONSTITUTION</h1>
+    <img src="/constitution-banner.png" alt="constitution banner"/>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     

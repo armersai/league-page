@@ -141,7 +141,7 @@
     }
 </style>
 
-<h2 bind:this={el}>{leagueName} Blog</h2>
+<img width="100%" src="/blog-banner.png" alt="blog banner logo"/>
 
 {#if loading}
     <div class="loading" >

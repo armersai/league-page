@@ -76,37 +76,55 @@
         overflow-x: scroll;
         margin: 0.5em 0 5em;
     }
+
+    .banner-div {
+        display: inline-block;
+        max-width: 1000px;
+        justify-content: center;
+    }
+
+    .banner {
+        width: 100%;
+        margin-top: 50px;
+    }
+
 </style>
 
-<h1>{year ?? ''} {leagueName} Standings</h1>
+<div>
+    <div class="banner-div">
+        <center><img class="banner" src="/standings-banner.png" alt="standings banner"/></center>
+    </div>
 
-{#if loading}
-    <!-- promise is pending -->
+    <h1>{year ?? ''} {leagueName} Standings</h1>
+
+    {#if loading}
+        <!-- promise is pending -->
+        <div class="loading">
+            <p>Loading Standings...</p>
+            <LinearProgress indeterminate />
+        </div>
+    {:else if preseason}
     <div class="loading">
-        <p>Loading Standings...</p>
-        <LinearProgress indeterminate />
+        <p>Preseason, No Standings Yet</p>
     </div>
-{:else if preseason}
-<div class="loading">
-    <p>Preseason, No Standings Yet</p>
-</div>
-{:else}
-    <div class="standingsTable">
-        <DataTable table$aria-label="League Standings" >
-            <Head> <!-- Team name  -->
-                <Row>
-                    <Cell class="center">Team</Cell>
-                    {#each columnOrder as column}
-                        <Cell class="center wrappable">{column.name}</Cell>
+    {:else}
+        <div class="standingsTable">
+            <DataTable table$aria-label="League Standings" >
+                <Head> <!-- Team name  -->
+                    <Row>
+                        <Cell class="center">Team</Cell>
+                        {#each columnOrder as column}
+                            <Cell class="center wrappable">{column.name}</Cell>
+                        {/each}
+                    </Row>
+                </Head>
+                <Body>
+                    <!-- 	Standing	 -->
+                    {#each standings as standing}
+                        <Standing {columnOrder} {standing} {leagueTeamManagers} team={getTeamFromTeamManagers(leagueTeamManagers, standing.rosterID)} />
                     {/each}
-                </Row>
-            </Head>
-            <Body>
-                <!-- 	Standing	 -->
-                {#each standings as standing}
-                    <Standing {columnOrder} {standing} {leagueTeamManagers} team={getTeamFromTeamManagers(leagueTeamManagers, standing.rosterID)} />
-                {/each}
-            </Body>
-        </DataTable>
-    </div>
-{/if}
+                </Body>
+            </DataTable>
+        </div>
+    {/if}
+</div>
