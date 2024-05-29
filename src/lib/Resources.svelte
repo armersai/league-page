@@ -102,8 +102,10 @@ import { dynasty } from './utils/helper';
 
 <style>
     .pageBody {
+        display: flex;
         position: relative;
         z-index: 1;
+        flex-direction: column;
     }
 
     :global(.list) {
@@ -135,11 +137,20 @@ import { dynasty } from './utils/helper';
         color: #888;
         text-align: center;
     }
+
+    .pagewidth {
+        flex: 1;
+        justify-content: center;
+    }
+
+    .imagebanner {
+        width: 300px;
+    }
 </style>
 
 <div class="pageBody">
-    <div class="banner">
-        <h4>Helpful Dynasty Resources</h4>
+    <div class="pagewidth">
+        <center><img class="imagebanner" src="/dynastyresourcesbanner.png" alt="dynasty resources banner"/></center>
     </div>
 
     <List class="list" dense>

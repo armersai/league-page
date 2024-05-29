@@ -142,6 +142,18 @@
         margin: 0 auto 2em;
         opacity: 75%;
     }
+
+    #rivalrybanner {
+        display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 140px;
+		width: 400px;
+		border-radius: 40px;
+		margin: 10px auto;
+		background-repeat: no-repeat;
+		background-size: auto 140px;
+    }
     @media (max-width: 650px) {
         h3 {
             font-size: 1.6em;
@@ -157,7 +169,9 @@
     }
 </style>
 
-<h2>Rivalry</h2>
+<div>
+    <img id="rivalrybanner" src="/rivalry-banner.png" alt="rivalry banner"/>
+</div>
 
 <div class="rivalrySelection">
     <ManagerSelectors bind:playerOne={playerOne} bind:playerTwo={playerTwo} {leagueTeamManagers} />

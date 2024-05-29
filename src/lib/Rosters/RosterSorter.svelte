@@ -115,15 +115,20 @@
 	}
 
 	.expandButton {
-		margin: 5em auto 2em;
+		margin: 3em auto 2em;
     	text-align: center;
 	}
 
 	.rosterbanner {
-		width: 100%;
-		margin-top: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 </style>
+
+<div>
+	<img class="banner" src="/rosters-banner.png" alt="rosters banner"/>
+</div>
 
 <div class="expandButton">
 	<Button on:click={() => {expanded = !expanded}} variant="outlined">

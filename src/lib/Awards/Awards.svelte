@@ -324,7 +324,23 @@
 			font-size: 0.5em;
 		}
 	}
+
+	.trophyroombanner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+		width: 100%;
+		border-radius: 40px;
+		margin: 10px auto;
+		background-repeat: no-repeat;
+		background-size: auto 140px;
+	}
 </style>
+
+<div>
+	<img class="trophyroombanner" src="/trophy-room-banner.png" alt="trophy room banner"/>
+</div>
 
 <div class="awards">
 	<h3>{year} Awards</h3>

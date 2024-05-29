@@ -67,7 +67,7 @@
 
 <div class="pageBody">
     <div class="banner" bind:this={el}>
-        <h4>Fantasy Football News and Updates</h4>
+        <center><img width=300px src="/fantasynewsandupdatesbanner.png" alt="fantasy news and updates banner"/></center>
     </div>
 
     <div class="articles">

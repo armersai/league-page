@@ -60,9 +60,23 @@
         align-items: center;
         margin: 3em 0;
     }
+
+    .matchupsbanner {
+        display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 140px;
+		width: 400px;
+		border-radius: 40px;
+		margin: 10px auto;
+		background-repeat: no-repeat;
+		background-size: auto 140px;
+    }
 </style>
 
-
+<div>
+    <img class="matchupsbanner" src="/matchups-banner.png" alt="managers banner"/>
+</div>
 
 {#if loading}
     <!-- promise is pending -->
