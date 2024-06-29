@@ -140,11 +140,19 @@
         width: 100%;
         margin-top: 30px;
     }
+
+    #teammascots {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 </style>
 <div id="home">
     <div id="main">
         <div class="text">
-            <center><img src="/favicons/android-chrome-512x512.png" alt="league page" width=100%></center>
+            <center><img src="/favicons/android-chrome-512x512.png" alt="league page" width=100%></center>  
+        </div>
+        <div class="text">
+            <center><img id="teammascots" src="/all-inmascots1.png" alt="mascots"/></center>
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
             {@html homepageText }
             <!-- Most recent Blog Post (if enabled) -->
