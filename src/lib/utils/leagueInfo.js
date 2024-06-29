@@ -187,6 +187,21 @@ export const managers = [
       "philosophy": "\"I'm a nice guy that enjoys a good rape from time to time.\" - Jack ... yikes", // (optional)
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/nolacholas.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannercholas.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/cholasblack1.png",
+      "jerseyblack2": "/jerseys/cholasblack2.png",
+      "jerseyblack3": "/jerseys/cholasblack3.png",
+      "jerseywhite1": "/jerseys/cholaswhite1.png",
+      "jerseywhite2": "/jerseys/cholaswhite2.png",
+      "jerseywhite3": "/jerseys/cholaswhite3.png",
+      "jerseyalt1": "/jerseys/cholasalt1.png",
+      "jerseyalt2": "/jerseys/cholasalt2.png",
+      "jerseyalt3": "/jerseys/cholasalt3.png",
+      "stadium": "/stadiums/cholasstadium.png", // Team Stadium
+      "mascot": "/mascots/chola.png", // Team Mascot
+      "bobblehead": "/bobbleheads/cholasbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#00a500"
     },
         {
       "managerID": "733463029844455424",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -316,6 +331,21 @@ export const managers = [
       "philosophy": null, // (optional)
       "tradingScale": 6, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "teamName": "/teamnames/escondidodiablos.png", // Team Name 
+      "franchiseBanner": "/teambanner/bannerdiablos.png", // Franchise Banner
+      "jerseyblack1": "/jerseys/diablosblack1.png",
+      "jerseyblack2": "/jerseys/diablosblack2.png",
+      "jerseyblack3": "/jerseys/diablosblack3.png",
+      "jerseywhite1": "/jerseys/diabloswhite1.png",
+      "jerseywhite2": "/jerseys/diabloswhite2.png",
+      "jerseywhite3": "/jerseys/diabloswhite3.png",
+      "jerseyalt1": "/jerseys/diablosalt1.png",
+      "jerseyalt2": "/jerseys/diablosalt2.png",
+      "jerseyalt3": "/jerseys/diablosalt3.png",
+      "stadium": "/stadiums/diablosstadium.png", // Team Stadium
+      "mascot": "/mascots/diablo.png", // Team Mascot
+      "bobblehead": "/bobbleheads/diablosbobblehead.png", //Team Bobblehead
+      "backgroundColor": "#d80000"
     },
         {
       "managerID": "966140145680392192",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
