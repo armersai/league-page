@@ -20,7 +20,7 @@
         z-index: 1;
         width: 92%;
         max-width: 800px;
-        margin: 8em auto 10em;
+        margin: 2em auto 10em;
     }
 
     h1 {
@@ -95,12 +95,13 @@
     }
 
     img {
+        max-width: 500px;
         width: 100%;
     }
 </style>
 
 <div class="constitution">
-    <img src="/constitution-banner.png" alt="constitution banner"/>
+    <center><img src="/constitution-banner.png" alt="constitution banner"/></center>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     

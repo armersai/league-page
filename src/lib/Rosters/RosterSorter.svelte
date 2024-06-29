@@ -40,8 +40,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 140px;
-		width: 400px;
+		max-width: 500px;
+		height: auto;
+		width: 100%;
 		border-radius: 40px;
 		margin: 10px auto;
 		background-repeat: no-repeat;

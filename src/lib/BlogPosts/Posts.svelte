@@ -139,10 +139,24 @@
     .filteringBy {
         font-size: 1em;
     }
+
+    .blogbanner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 500px;
+		height: auto;
+		width: 100%;
+		border-radius: 40px;
+		margin: 10px auto;
+		background-repeat: no-repeat;
+		background-size: auto 140px;
+	}
 </style>
 
-<img width="100%" src="/blog-banner.png" alt="blog banner logo"/>
-
+<div>
+    <img class="blogbanner" src="/blog-banner.png" alt="blog banner logo"/>
+</div>
 {#if loading}
     <div class="loading" >
         <p>Loading league blog posts...</p>
