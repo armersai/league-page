@@ -222,7 +222,54 @@
 		font-style: italic;
 	}
 
+	#bannerdiv {
+		margin-bottom: 10px;
+	}
+
+	.trophyroombanner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 500px;
+		height: auto;
+		width: 100%;
+		border-radius: 40px;
+		margin: 10px auto;
+		background-repeat: no-repeat;
+		background-size: auto 140px;
+	}
+
+	#trophydiv {
+		width: 600px;
+		height: 500px;
+		position: relative;
+		margin: 10px auto 30px;
+	}
+
+	.trophymain {
+		position: flex;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	@media (min-width: 681px) {
+		#trophydiv {
+			width: 500px;
+			height: 875px;
+			position: relative;
+			margin: 10px auto 30px;
+		}
+	}
+
 	@media (max-width: 680px) {
+		#trophydiv {
+			width: 500px;
+			height: 875px;
+			position: relative;
+			margin: 10px auto 30px;
+		}
 		.label {
 			padding: 6px 8px;
 		}
@@ -232,6 +279,12 @@
 	}
 
 	@media (max-width: 630px) {
+		#trophydiv {
+			width: 500px;
+			height: 875px;
+			position: relative;
+			margin: 10px auto 30px;
+		}
 		.label {
 			font-size: 0.9em;
 		}
@@ -244,6 +297,13 @@
 		#podium {
 			width: 500px;
 			height: 417px;
+			position: relative;
+			margin: 10px auto 30px;
+		}
+
+		#trophydiv {
+			width: 500px;
+			height: 875px;
 			position: relative;
 			margin: 10px auto 30px;
 		}
@@ -286,6 +346,11 @@
 			width: 400px;
 			height: 333px;
 		}
+
+		#trophydiv {
+			width: 400px;
+			height: 700px;
+		}
 	}
 
 	@media (max-width: 425px) {
@@ -301,6 +366,11 @@
 		#podium {
 			width: 300px;
 			height: 250px;
+		}
+
+		#trophydiv {
+			width: 300px;
+			height: 550px;
 		}
 
 		.firstLabel {
@@ -324,22 +394,14 @@
 			font-size: 0.5em;
 		}
 	}
-
-	.trophyroombanner {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: auto;
-		width: 100%;
-		border-radius: 40px;
-		margin: 10px auto;
-		background-repeat: no-repeat;
-		background-size: auto 140px;
-	}
 </style>
 
-<div>
+<div id="bannerdiv">
 	<img class="trophyroombanner" src="/trophy-room-banner.png" alt="trophy room banner"/>
+</div>
+
+<div id="trophydiv">
+	<center><img class="trophymain" src="/all-introphy2023.png" alt="trophy main"/></center>
 </div>
 
 <div class="awards">
